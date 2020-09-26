@@ -1,11 +1,12 @@
 import React, { Component } from "react"
+import Layout from "../components/Layout"
 
 export default class products extends Component {
   render() {
     return (
-      <div>
-        <h1>This is our products</h1>
-      </div>
+      <Layout>
+        <h1>Hello from products</h1>
+      </Layout>
     )
   }
 }
